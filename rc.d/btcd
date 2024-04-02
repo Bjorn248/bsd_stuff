@@ -13,7 +13,7 @@ btcd_user="bitcoin"
 btcd_group="bitcoin"
 command="/home/bitcoin/btcd-freebsd-amd64-v0.24.0/${name}"
 
-command_args="-C /home/bitcoin/.btcd/btcd.conf > /dev/null 2>&1"
+command_args="-C /home/bitcoin/.btcd/btcd.conf > /dev/null 2>&1 &"
 
 required_files="/home/bitcoin/.btcd/btcd.conf"
 
